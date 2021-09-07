@@ -53,8 +53,7 @@ jobs:
 
       with: 
 
-        cli_config_credentials_token: ${{ secrets.TEST_PIPELINES_AZURE
- }} 
+        cli_config_credentials_token: ${{ secrets.TEST_PIPELINES_AZURE }} 
 
     # Checkout the repository to the GitHub Actions runner 
 
